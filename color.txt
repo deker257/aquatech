@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquatech</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#f4f4f6] font-[Geist]">
+    <!-- bg-[#FFD2A0] violet -> bg-[#EFB6C8]  border-b border-white-->
+    <header class="fixed flex items-center justify-between w-full top-0 l-0 py-4 px-2">
+        <div class="logo flex justify-center items-center w-full space-x-3">
+            <!-- <h1 class="font-[DynaPuff] text-4xl font-extrabold">Aqua<b class="text-[#FFD2A0]">T</b>ech</h1> -->
+            <img class="w-[93px]" src="picture/logo2.png" alt="flower logo">
+        </div>
+        <nav class="flex space-x-3 justify-center w-full items-center">
+            <a class="text-lg font-semibold text-[#fff]" href="#">Accueil</a>
+            <a class="text-lg font-semibold text-[#fff]" href="#">Services</a>
+            <a class="text-lg font-semibold text-[#fff]" href="#">Contact</a>
+            <a class="text-lg font-semibold text-[#fff]" href="#">À propos</a>
+        </nav>
+        <div class="flex justify-center items-center w-full space-x-6">
+            <a href="">
+                <button class="border border-white rounded-sm py-1 px-2 text-[#EFB6C8] text-">S'identifier</button>
+            </a>
+            <a href="">
+                <button class="border border-white rounded-sm py-1 px-2 bg-[#145DA0]">S'inscricre</button>
+            </a>
+        </div>
+    </header>
+    <section>
+        <div class="vid">
+            <video class="hidden brightness-50 fixed top-0 left-0 " src="video/1918465-uhd_3840_2160_24fps.mp4" autoplay muted loop></video>
+        </div>
+        <div>
+            <img class="w-full brightness-[0.4] absolute top-0 left-0 " src="picture/cp.jpg" alt="">
+        </div>
+        <div class="container absolute top-[50%] text-white space-y-5 px-6">
+            <b class="text-5xl uppercase ">L’eau de demain, <br> Accessible aujourd'hui</b>
+            <p class="text-sm font-light w-[500px]">En refroidissant l'air chaud et humide, le système 
+                condense la vapeur d'eau en gouttelettes, recréant 
+                un processus naturel en version technologique.</p>
+        </div>
+        <div class="vid2">
+            <video class="brightness-75 w-[450px] absolute top-[50%] right-56" src="video/5942152-uhd_3840_2160_24fps.mp4" autoplay muted loop></video>
+        </div>
+    </section>
+
+    <main class="main block w-full mt-[120px]">
+        <section  class="hidden">
+            <div class="carousel w-full flex justify-center items-center space-x-6">
+                <div class="grid grid-cols-[1fr] space-y-2 w-min">
+                    <div class="w-max"><img class="w-[240px] rounded-sm" src="picture/p1.png" alt=""></div>
+                    <div><p class="text-center text-[#f4f4f6]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis suscipit voluptates quos?</p></div>
+                </div>
+                <div class="grid grid-cols-[1fr] space-y-2 w-min">
+                    <div class="w-max"><img class="w-[240px]" src="picture/p2.png" alt=""></div>
+                    <div><p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis suscipit voluptates quos?</p></div>
+                </div>
+                <div class="grid grid-cols-[1fr] space-y-2 w-min">
+                    <div class="w-max"><img class="w-[240px]" src="picture/p1.png" alt=""></div>
+                    <div><p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis suscipit voluptates quos?</p></div>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="hidden">
+            <center><b class="text-lg">Partenariats</b></center>
+            <hr>
+            <div class="flex justify-center items-center space-x-6">
+                <img class="w-[60px]" src="picture/trois.png" alt="">
+                <img class="w-[60px]" src="picture/one.png" alt="">
+                <img class="w-[60px]" src="picture/deux.png" alt="">
+            </div>
+        </section>
+    </main>
+    
+    <footer class="hidden w-full md:py-2 py-3 flex flex-col justify-center items-center bg-[#E7EEEE] mt-[1px] ">
+
+        <div class="grid md:grid-cols-[auto_1fr] grid-cold-1 md:space-x-12 space-x-0 items-center justify-around w-full px-6">
+            <div class="w-max md:block hidden">
+                <div class="img md:w-max">
+                    <img class="md:w-[180px] w-full" src="premium_photo-1681930071839-e5fbf9fae636.avif" alt="Alai Water">
+                    <h1 class="text-center mt-1 text-[#145DA0] font-extrabold">ALAIN NDOUCK</h1>
+                </div>
+            </div>
+
+            <div class="w-full flex md:flex-row flex-col justify-start md:space-x-9 spacex-x-0 space-y-9 py-9 md:py-3">
+
+                <div class="w-full flex flex-col justify-center items-center space-y-3 px-1 border-r">
+                    <div class="w-full flex md:ustify-center items-center"><h1 class="text-[#145DA0] md:text-sm text-lg font-semibold">QUI SUIS-JE ?</h1></div>
+                    <div>
+                        <p class="text-justify text-sm">
+                            Je suis Alain Ndouck, maître de cérémonie passionné et expérimenté, spécialisé dans l'animation et la présentation de tout type d'événements. Formé pour créer des ambiances uniques et mémorables, je mets à votre service mon savoir-faire, mon élégance et mon sens de l'adaptation pour sublimer vos moments spéciaux. Que ce soit pour des mariages, anniversaires, galas ou cérémonies officielles, mon objectif est de transformer chaque occasion en un souvenir inoubliable. Avec moi, votre événement est entre de bonnes mains !
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w-max flex flex-col md:justify-center justify-start items-center space-y-3">
+                    <div class="w-full flex justify-center items-center"><h1 class="text-[#145DA0] md:text-xs text-lg text-center font-semibold">INFORMATIONS DE CONTACT</h1></div>
+                    <div class="w-full flex flex-col justify-start items-center">
+                        <div class="flex flex-col md:justify-center justify-start w-full space-y-3 md:text-center text-start">
+                            <a href="mailto:ndoucky@gmail.com" class="md:text-xs"><i class="fas fa-envelope text-red-600"></i> ndoucky@gmail.com</a>
+                            <a href="#" class="md:text-xs"> <i class="fas fa-phone text-yellow-600"></i> <br> (+237) 694 341 266</a>
+                            <a class="md:text-xs" href="https://wa.me/+237694341266" target="_blank"><i class="fab fa-whatsapp mr-1 text-green-800 text-base"></i><br> (+237) 670 135 507</a>
+                            <div class="flex md:justify-center items-center m-0 space-x-3">
+                                <a class="text-blue-800 text-base" href="https://web.facebook.com/p/Alain-Ndouck-Officiel-100086624170379/?_rdc=1&_rdr" target="_blank"><i class="fab fa-facebook md:text-base text-3xl"></i></a>
+                                <a class="text-rose-800 text-base" href="https://instagram.com/tonprofil" target="_blank"><i class="fab fa-instagram md:text-base text-3xl"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full flex flex-col justify-center items-center space-y-3 border-l">
+                    <div class="w-full flex md:justify-center justify-start items-center"><h1 class="text-[#145DA0] md:text-sm text-lg font-semibold">A PROPOS</h1></div>
+                    <div class="w-full flex md:justify-center justify-start">
+                        <ul class="md:text-justify leading-loose text-sm list-disc">
+                            <li>Prestations adaptées à vos besoins et votre budget.</li>
+                            <li>Services professionnels avec des tarifs transparents.</li>
+                            <li>Disponible pour vos événements partout à Yaoundé, Cameroun.</li>
+                            <li>Votre événement, notre passion.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="w-full flex justify-center p-0 m-0 items-center bg-black text-white"><h1 class="md:text-[16px] text-[15px] flex font-light">Aqua <b class="text-[#145DA0] mr-2">tech </b>&copy; Tous droits réservés</h1></div>
+    </footer>
+
+
+    <script>
+        const menu = document.getElementById('menu')
+        const header = document.getElementById('header')
+        const nav = document.getElementById('nav')
+
+        menu.onclick = function()
+        {
+            nav.classList.toggle('hidden')
+        }
+
+        window.addEventListener("scroll", function(){
+            header.classList.toggle('sticky', window.scrollY > 0)
+        })
+
+    </script>
+
+    </script>
+</body>
+</html>
